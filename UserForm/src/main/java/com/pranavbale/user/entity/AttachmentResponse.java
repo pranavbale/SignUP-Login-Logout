@@ -6,6 +6,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.core.io.ByteArrayResource;
+import org.springframework.web.multipart.MultipartFile;
 
 @Data
 @NoArgsConstructor
@@ -18,6 +20,5 @@ public class AttachmentResponse {
     private String userMobileNumber;
     private String fileName;
     private String fileType;
-    private String url;
 
 }
